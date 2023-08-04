@@ -1,0 +1,100 @@
+.container-principal {
+    background-image: url(../imagens/bg-repeat.jpg);
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container-principal .container-info {
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+.container-principal .container-info .titulo {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.container-principal .container-info .msg-suporte {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.container-principal .container-formulario .formulario {
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    padding: 21px;
+}
+
+.container-principal .container-formulario .formulario #duvida {
+    resize: none;
+    padding: 5px 10px;
+}
+
+.container-principal .container-formulario .formulario .input {
+    padding: 5px 10px;
+}
+
+.container-principal .container-formulario .formulario .campo,
+.container-principal .container-formulario .formulario .btn-submit {
+    border-radius: 5px;
+    border: 2px solid;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.container-principal .container-formulario .formulario .campo {
+    margin-bottom: 15px;
+}
+
+.container-principal .container-formulario .formulario .btn-submit,
+.container-principal .container-formulario .formulario .campos-obrigatorios {
+    margin-bottom: 5px;
+}
+
+.container-principal .container-formulario .formulario .campos-obrigatorios {
+    margin: 0 0 10px -5px;
+}
+
+.container-principal .container-formulario .formulario .btn-submit {
+    background-color: #3BCC87;
+    color: #FFFFFF;
+    border: 2px solid #3BCC87;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.container-principal .container-formulario .formulario .btn-submit:hover {
+    background-color: #FFFFFF;
+    color: #3BCC87;
+}
+
+.container-principal .container-formulario .formulario .campo.campo-null {
+    border-color: #F52E2E;
+    margin-bottom: 0;
+}
+
+.container-principal .container-formulario .formulario .campo-obrigatorio {
+    color: #F52E2E;
+    font-size: 8px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.container-principal .container-formulario .formulario .campo.campo-correto {
+    border-color: #1FCA45;
+}
+
+.container-principal .container-formulario .formulario .campo-obrigatorio.mensagem-erro {
+    display: block;
+}
