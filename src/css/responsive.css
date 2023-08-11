@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+    .container-principal .container-info {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 859px) {
+    .container-principal {
+        flex-wrap: wrap;
+    }
+}
