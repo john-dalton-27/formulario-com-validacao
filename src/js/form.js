@@ -1,8 +1,8 @@
-const formulario = document.getElementById('formulario');
+const formulario = document.querySelector('.btn-submit');
 const inputsDoFormulario = document.querySelectorAll('.campo');
 const mensagemDeErro = document.querySelectorAll('.campo-obrigatorio');
 
-formulario.addEventListener('submit', (event) => {
+formulario.addEventListener('click', (event) => {
     event.preventDefault();
 
     inputsDoFormulario.forEach((input, index) => {
